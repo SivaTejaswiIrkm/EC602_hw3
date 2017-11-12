@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-image = cv2.imread('Lenna.png')
+image = cv2.imread('baboon.jpg')
 print(image[20, 25])
 b,g,r = cv2.split(image)
 
